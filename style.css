@@ -13,6 +13,5 @@ div#bricks {
     width: calc(100% - 2 * var(--cat));
     height: 280px;
     background-color: white;
-    transform: translate(0px,var(
-    --cat));
+    transform: translate(0px,var(--cat));
 }
