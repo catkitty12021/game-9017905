@@ -1,5 +1,18 @@
+:root {
+    --cat: 60px;
+}
+
 div#game_container {
   background-color: gray;
   width: calc(100vw - 16px);
   height: calc((100vh - 16px)*0.82);
+}
+
+div#bricks {
+    margin: 0 auto;
+    width: calc(100% - 2 * var(--cat));
+    height: 280px;
+    background-color: white;
+    transform: translate(0px,var(
+    --cat));
 }
